@@ -1,0 +1,19 @@
+@charset "utf-8";
+body{
+    background-color:darksalmon;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+   height: 70px;
+   background-color: blue;
+   text-align: center; 
+   font-size: 30px;
+}
+
+.section{
+    height: 1080px;
+    width: 100%;
+    background-image: url("bakgrundtest.jpg");
+}
