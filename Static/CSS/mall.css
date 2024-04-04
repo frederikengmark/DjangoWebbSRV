@@ -6,27 +6,15 @@ body{
 }
 
 .header{
-   height: 70px;
+   height: 100px;
    background-color: blue;
    text-align: center; 
-   font-size: 30px;
+   font-size: 60px;
 }
 
 .section{
-    height: 1080px;
+    height: 200px;
     width: 100%;
     background-image: url("bakgrundtest.jpg");
 }
 
-function display_c(){
-    var refresh=1000; // Refresh rate in milli seconds
-    mytime=setTimeout('display_ct()',refresh)
- }
- 
- function display_ct() {
-   var CDate = new Date()
-   var NewDate=CDate.toDateString(); 
-   NewDate = NewDate + " - " + CDate.toLocaleTimeString();
-   document.getElementById('ct').innerHTML = NewDate;
-   display_c();
- }
