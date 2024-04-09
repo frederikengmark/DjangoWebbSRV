@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    background-color:darksalmon;
+    background-color:black;
     margin: 0;
     padding: 0;
 }
@@ -16,5 +16,6 @@ body{
     height: 200px;
     width: 100%;
     background-image: url("bakgrundtest.jpg");
+    background-repeat: no-repeat;
 }
 
