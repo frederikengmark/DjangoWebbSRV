@@ -15,6 +15,9 @@ body{
 .section{
     height: 200px;
     width: 100%;
+<<<<<<<<< Temporary merge branch 1
+    
+=========
     background-image: url("bakgrundtest.jpg");
     background-repeat: no-repeat;
 }
